@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER DASHBOARD</title>
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/MFMPQ9CI0em-4AuBsiEZ4qiTBBCZ9ThmijX8YA9WD3fv5RhtLyXcpc8qdZhSq1d6XTc" type="image/x-icon">
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="./sangari.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1>WEATHER DASHBOARD</h1>
+    </header>
+    <div class="container">
+        <div class="input-box">
+            <label for="cityName">City Name</label><br>
+            <input id="cityName" type="text" placeholder="Enter City Name">
+            <button class="weather-btn" id="getBtn">Get Weather</button>
+        </div>
+        <div class="weather">
+            <img id="weather_icon" src="https://openweathermap.org/img/wn/13n@2x.png">
+            <h1 class="currentWeather">Weather: <span>0</span>°C</h1>
+            <h3><p class="city-name">City Name: <span>''</span></p></h3>
+            <p class="min-temp">Min Temp: <span>0</span>°C</p>
+            <p class="max-temp">Max Temp: <span>0</span>°C</p>
+            <p class="humidity">Humidity: <span>0%</span></p>
+            <p class="weather-description">Description: <span>---</span></p>
+        </div>
+    </div>
+    <script src="JS.js"></script>
+</body>
+</html>
